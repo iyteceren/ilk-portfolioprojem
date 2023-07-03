@@ -1,0 +1,357 @@
+.header-bg {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 1, 23, 0.8), rgba(0, 1, 23, .6)), url(img/anasayfa-ev.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#language {
+    cursor: pointer;
+}
+.index-sec1 {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.index-sec1 h5 {
+    color: #990033;
+}
+
+.index-sec2 {
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 1, 23, 0.8), rgba(0, 1, 23, .6)), url(img/anasayfa-ev-2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.index-sec2 .btn {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.index-sec2 .btn:hover {
+    transition: all .5s linear;
+    border-bottom: 1px solid gray;
+}
+
+.index-blog .row img {
+    max-width: 100%;
+}
+
+.index-blog h5 {
+    color: #990033;
+}
+
+#left-col-6 {
+    max-width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 1, 23, 0.8), rgba(0, 1, 23, .6)), url(img/cafe.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.left-col-btn {
+    height: 40vh;
+}
+
+.left-col-btn a {
+    color: gray;
+    border-bottom: 1px solid gray;
+    position: relative;
+    left: 40%;
+    top: 60%;
+}
+
+.left-col-btn a:hover {
+    transition: all .5s linear;
+    background-color: white;
+    color: black;
+}
+
+#right-col-6 h6 {
+    color: #990033;
+}
+
+#ad-soyad {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.678);
+    width: 60%;
+    font-size: 14px;
+    text-indent: 15px;
+    color: gray;
+    line-height: 20px;
+    padding: 10px;
+}
+
+#eposta {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.678);
+    width: 60%;
+    font-size: 14px;
+    text-indent: 15px;
+    color: gray;
+    padding: 10px;
+}
+
+#subject {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.678);
+    width: 60%;
+    font-size: 14px;
+    text-indent: 15px;
+    color: gray;
+    padding: 10px;
+}
+
+#message {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.678);
+    width: 60%;
+    font-size: 14px;
+    text-indent: 15px;
+    color: gray;
+    padding: 10px;
+    resize: none;
+}
+
+.message-btn button {
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.message-btn button:hover {
+    transition: all .5s linear;
+    background-color: gray;
+    color: white;
+}
+
+.index-footer {
+    background-color: #020a20;
+    width: 100%;
+    color: white;
+}
+
+.index-footer h5 {
+    cursor: pointer;
+}
+
+.index-footer h5:hover {
+    transition: all .5s linear;
+    color: gray;
+}
+
+.index-footer ul li {
+    cursor: pointer;
+}
+
+.index-footer ul li:hover {
+    transition: all .5s linear;
+    color: gray;
+}
+
+.input-group {
+    background-color: #020a20;
+}
+
+.form-control {
+    background-color: #020a20;
+}
+
+#facebook {
+    font-size: 30px;
+}
+
+#twitter {
+    font-size: 30px;
+}
+
+#linkedin {
+    font-size: 30px;
+}
+
+#facebook:hover {
+    transition: all .5s linear;
+    color: gray;
+}
+
+#twitter:hover {
+    transition: all .5s linear;
+    color: gray;
+}
+
+#linkedin:hover {
+    transition: all .5s linear;
+    color: gray;
+}
+
+/* INDEX CSS BURDA BİTMİŞTİR */
+.about-bg {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 1, 23, 0.8), rgba(0, 1, 23, .6)), url(img/hakkımızda.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: cover;
+}
+
+#tarihce {
+    color: #990033;
+}
+
+#vizyon {
+    color: gray;
+}
+
+#vizyon:hover {
+    transition: all .3s linear;
+    color: #990033;
+}
+
+#misyon {
+    color: gray;
+}
+
+#misyon:hover {
+    transition: all .3s linear;
+    color: #990033;
+}
+
+.tarihce-h6 {
+    color: #990033;
+}
+
+.about-sec2 {
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 1, 23, 0.8), rgba(0, 1, 23, .6)), url(img/about-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#iletisim {
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+#iletisim:hover {
+    transition: all .3s linear;
+    background-color: gray;
+    color: white;
+}
+
+/* ABOUT-HTML CSS BURDA BİTMİŞTİR */
+.team-bg {
+    width: 100%;
+    height: 35vh;
+    background: linear-gradient(rgba(0, 1, 23, 0.8), rgba(0, 1, 23, .6)), url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+img {
+    max-width: 100%;
+}
+.nav-item .nav-link {
+    color: white;
+}
+.menu-left ul li:hover {
+    transition: .5s;
+    color: #990033;
+    cursor: pointer;
+}
+.search h6 {
+    color: #990033;
+}
+.search input {
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.search select {
+    width: 100%;
+    height: 3rem;
+    margin-top: 1.5rem;
+}
+.search-btn {
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+.search-btn:hover {
+    transition: .34s;
+    background-color: #990033;
+    color: white;
+}
+.alfabe-arama h6 {
+    color: #990033;
+}
+.alfabe-arama ul li {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.alfabe-arama ul li:hover {
+    cursor: pointer;
+    transition: all .3s linear;
+    color: #990033;
+}
+/* TEAM-HTML CSS BURDA BİTMİŞTİR */
+.career-bg {
+    width: 100%;
+    height: 45vh;
+    background: linear-gradient(rgba(0, 1, 23, 0.8), rgba(0, 1, 23, .6)), url(img/kariyer-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.career-sec1 {
+    height: 20vh;
+}
+#sec1-h5 {
+    color: #990033;
+}
+.career-sec2 {
+    width: 100%;
+    height: 35vh;
+    background: linear-gradient(rgba(0, 1, 23, 0.8), rgba(0, 1, 23, .6)), url(img/slide-4.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: cover;
+}
+#sec3-name {
+    color: #990033;
+    font-weight: bold;
+}
+.career-sec4 {
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(rgba(0, 1, 23, 0.8), rgba(0, 1, 23, .6)), url(img/career-masa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#sec4-basvur {
+    color: gray;
+    border-bottom: 1px solid gray;
+    width: 100px;
+}
+#sec4-basvur:hover {
+    cursor: pointer;
+    transition: all .3s linear;
+    background-color: white;
+    color: black;
+}
